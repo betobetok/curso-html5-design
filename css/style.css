@@ -1,0 +1,8 @@
+body {
+    background-color: lightgray;
+}
+
+.hidden {
+    position: absolute;
+    left: -9999em;
+}
