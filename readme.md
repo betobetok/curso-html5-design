@@ -1,5 +1,12 @@
 # HTML y CSS para diseñadores
 
+## Links de interes
+- Lista de caracteres UTF-8
+    - https://unicode-table.com
+- Pagina oficial de la World Wide Web Consortium
+    - https://www.w3.org
+- Tutoriales y referencias utiles de HTML, CSS y otros paquetes
+    - https://www.w3schools.com
 ## En 4 módulos aprenderás:
 
 - A utilizar el lenguaje HTML y herramientas como CSS.
