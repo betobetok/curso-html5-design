@@ -7,6 +7,11 @@
     - https://www.w3.org
 - Tutoriales y referencias utiles de HTML, CSS y otros paquetes
     - https://www.w3schools.com
+- Guias, trucos y consejos para CSS
+    - https://css-tricks.com
+- Validacion de lenguaje HTML respecto al estandar w3
+    - https://validator.w3.org
+
 ## En 4 módulos aprenderás:
 
 - A utilizar el lenguaje HTML y herramientas como CSS.
