@@ -11,6 +11,8 @@
     - https://css-tricks.com
 - Validacion de lenguaje HTML respecto al estandar w3
     - https://validator.w3.org
+- Editor de codigo
+    - https://code.visualstudio.com/
 
 ## En 4 módulos aprenderás:
 
