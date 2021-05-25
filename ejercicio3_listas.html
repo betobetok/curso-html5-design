@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas HTML</title>
+</head>
+
+<body>
+    <h1>Listas HTML</h1>
+
+    <h2>Listas ordenadas</h2>
+    <ol type="a" start="4">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3
+            <ol type="i" start="10">
+                <li>Elemento 3.1</li>
+                <li>Elemento 3.2</li>
+            </ol>
+        </li>
+        <li>Elemento 4</li>
+    </ol>
+
+    <ol start="100" reversed="reversed">
+        <li>Elemento 1</li>
+        <li>Elemento 2
+            <ol start="C" type="A">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+        </li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol>
+
+    <ol type="i" start="1">
+        <li>Elemento 1</li>
+        <li>Elemento 2
+            <ol>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+        </li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol>
+    <h2>Listas no ordenadas</h2>
+
+    <ul type="disc">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+    <ul type="circle">
+        <li>Elemento 1</li>
+        <li>Elemento 2
+            <ul type="square">
+                <li>Elemento 2.1</li>
+                <li>Elemento 2.2</li>
+            </ul>
+        </li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+    <ul type="square">
+        <li>Elemento 1</li>
+        <li>Elemento 2
+            <ol style="list-style-type:decimal-leading-zero;">
+                <li>Coffee</li>
+                <li>Tea
+                    <ul>
+                        <li>Black tea</li>
+                        <li>Green tea
+                            <ol>
+                                <li>A</li>
+                                <li>B
+                                    <ol>
+                                        <li>1</li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </li>
+                    </ul>
+                </li>
+                <li>Milk</li>
+            </ol>
+        </li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <h2>Listas de definición</h2>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>Black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>White cold drink</dd>
+    </dl>
+</body>
+
+</html>

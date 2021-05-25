@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemento Table</title>
+    <style>
+        td {
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tablas</h1>
+    <table>
+        <tr>
+            <th>No 1</th>
+            <th>No 2</th>
+            <th>No 3</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td colspan="2" rowspan="2">5</td>
+
+        </tr>
+        <tr>
+            <td>7</td>
+
+        </tr>
+    </table>
+    <table>
+        <colgroup>
+            <col style="background-color: darkgoldenrod;">
+            <col>
+            <col>
+        </colgroup>
+        <thead style="background-color: cadetblue;">
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Descripcion</th>
+                <th colspan="2">Fecha</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th>Pedido</th>
+                <th>venta</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td>Cuadro</td>
+                <td>Cuador al Oleo</td>
+                <td>23/05/2021</td>
+                <td>24/05/2021 </td>
+                <td>$ 50</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Cuadro</td>
+                <td>Cuador al Oleo</td>
+                <td>23/05/2021</td>
+                <td>24/05/2021</td>
+                <td>$ 50</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Cuadro</td>
+                <td>Cuador al Oleo</td>
+                <td>23/05/2021</td>
+                <td>24/05/2021</td>
+                <td>$ 50</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Cuadro</td>
+                <td>Cuador al Oleo</td>
+                <td>23/05/2021</td>
+                <td>24/05/2021</td>
+                <td>$ 50</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Total</td>
+                <td>$ 500</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
