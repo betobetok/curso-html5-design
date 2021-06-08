@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- La etiqueta Form requiere del atributo action y del atributo method -->
+    <form action="formularios.html" method="GET">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Alberto">
+        <label for="nombre">Nombre de soltera:</label>
+        <input type="text" name="nombre_s" id="nombre_s" placeholder="disabled" disabled>
+
+        <label for="Firefox">Firefox</label>
+        <input type="checkbox" name="Browsers" id="Firefox" value="Firefox">
+        <label for="Chrome">Chrome</label>
+        <input type="checkbox" name="Browsers" id="Chrome" value="Chrome">
+        <label for="Edge">Edge</label>
+        <input type="checkbox" name="Browsers" id="Edge" value="Edge" disabled>
+
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="masculino" value="M" checked>
+        <label for="femenino">Femenino</label>
+        <input type="radio" name="genero" id="femenino" value="F">
+        <label for="otro">Otro</label>
+        <input type="radio" name="genero" id="Otor" value="O">
+
+        <input type="color" name="color" id="color">
+        <input type="range" name="range" id="">
+        <input type="date" name="fecha" id="">
+
+        <button type="submit">Send</button>
+    </form>
+
+    <br>
+    <br>
+    <form action="formularios.html" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Tu nombre">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
