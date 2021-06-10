@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <form action="formulario_contacto.html" method="get">
+        <fieldset>
+            <legend>Datos de Contacto</legend>
+            <label for="nombre">Nombre: *</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre:" required><br>
+            <label for="telefono">Telefono:</label>
+            <input type="text" name="telefono" id="telefono" placeholder="telefono:">
+            <select name="tele_type" id="tele_type">
+                <option value="fijo">Fijo</option>
+                <option value="movil">Movil</option>
+                <option value="oficina">Oficina</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Generales</legend>
+
+            <select name="estado" id="estado">
+                <optgroup label="Centro">
+                <option value="Ciudad Mexico">Ciudad de Mexico</option>
+                <option value="EdoMex">Estado de Mexico</option>
+                </optgroup>
+                <optgroup label="Norte">
+                <option value="Nuevo Leon">Nuevo Leon</option>
+                <option value="Baja California Sur">Baja California Sur</option>
+                </optgroup>
+                <optgroup label="Sur">
+                    <option value="Chiapas">Chiapas</option>
+                </optgroup>
+                
+                
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <p>Genero</p>
+            <input type="radio" name="genero" id="masculino" value="M"><label for="masculino">Masculino</label><br>
+            <input type="radio" name="genero" id="femenino" value="F"><label for="femenino">Femenino</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Comentario</legend>
+            <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
