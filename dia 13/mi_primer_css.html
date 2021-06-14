@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Hoja de Estilo en Cascada</title>
+    <style>
+        ul {
+            color: blue;
+        }
+        
+        .navegacion a {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: red;
+            display: inline-block;
+            width: 20%;
+        }
+        
+        span {
+            background-color: rosybrown;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navegacion">
+        <ul class="nav-container">
+            <li class="navegacion"><a href="index.html">Home</a> Nuestro hogar</li>
+            <li class="navegacion"><a href="shop.html">Tienda</a> Mi tienda favorita</li>
+            <li class="navegacion"><a href="nosotros.html">Sobre Nosotros</a> Lo que hacemos todos los dìas</li>
+            <li class="navegacion"><a href="#">Ejemplo</a> Un ejemplo mas</li>
+        </ul>
+        <ul>
+            <li>
+                <p>Test 1</p>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <p>Test 2</p>
+    </div>
+
+    <img class="navegacion" src="logo.png" alt="Logo">
+    <h1>Mi primer Hoja de estilo</h1>
+    <h2>Que es CSS</h2>
+    <div class="lista">
+        <ol>
+            <li id="instructor">Alberto</li>
+            <li id="alumna">Celia
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </li>
+            <li id="hermana">Edne</li>
+        </ol>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium autem voluptatem sint sequi laborum et dicta numquam maiores in minima, dolor veritatis sapiente sit, consectetur incidunt quam? Cupiditate, facere similique.</p>
+    </div>
+    <h2>No soy <span>hermano consecutivo</span></h2>
+    <p>CSS (siglas en inglés de Cascading Style Sheets), en español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.2​ Es muy usado para establecer
+        el diseño visual de los documentos web, e interfaces de usuario escritas en HTML o XHTML; el lenguaje puede ser aplicado a cualquier documento XML, incluyendo XHTML, SVG, XUL, RSS, etcétera. Junto con HTML y JavaScript, CSS es una tecnología usada
+        por muchos sitios web para crear páginas visualmente atractivas, interfaces de usuario para aplicaciones web y GUIs para muchas aplicaciones móviles (como Firefox OS).3​ </p>
+    <p>CSS está diseñado principalmente para marcar la separación del contenido del documento y la forma de presentación de este, características tales como las capas o layouts, los colores y las fuentes.4​ Esta separación busca mejorar la accesibilidad
+        del documento, proveer más flexibilidad y control en la especificación de características presentacionales, permitir que varios documentos HTML compartan un mismo estilo usando una sola hoja de estilos separada en un archivo .css, y reducir la
+        complejidad y la repetición de código en la estructura del documento. </p>
+    <div>
+        <h2>Hola</h2>
+        <p>La la la la <a href="">No me hablan</a></p>
+    </div>
+    <form action="#" method="get">
+        <div class="input">
+            <label for="name">Nombre:</label>
+            <input id="name" name="name" type="text">
+        </div>
+        <div class="input">
+            <label for="telefono">Telefono:</label>
+            <input id="telefono" name="telefono" type="text">
+        </div>
+        <div class="input">
+            <label for="email">E-mail:</label>
+            <input id="email" name="email" type="text">
+        </div>
+        <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
