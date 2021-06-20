@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    background: #ffc;
+    width: 96vw;
+    margin-bottom: 5px;
+    margin-left: 1vw;
+    border: 2px solid lightblue;
+}
+
+.col {
+    background: #ccc;
+    padding: 1vw;
+    width: calc((95vw/3) - 4vw);
+    height: 20vw;
+    margin: 1vw 1vw 1vw 1vw;
+}
+
+.row {
+    display: inline-block;
+    background: #ccc;
+    padding: 1vw;
+    width: calc(2*(95vw/3) - 4vw);
+    height: calc(20vw/2 - 2vw);
+    margin: 1vw 1vw 1vw 1vw;
+}
+
+.row.left,
+.col:first-child {
+    margin: 1vw 1vw 1vw 2vw;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.row+.row+.col.right {
+    margin-top: calc(-20vw/2 - 1vw);
+}
+
+.row+.col.left {
+    margin-left: 2vw;
+}
+
+h1:first-letter {
+    /* die signe + = $ ´ * ~ | > ^ ° sind als "letter" genomen, die anderen nicht*/
+    font-size: 2em;
+}
+
+.floating:after {
+    content: "";
+    display: table;
+    clear: both;
+}
